@@ -63,7 +63,7 @@ body{
     height: 200hv;
     display: flex;
     align-items: center;
-    padding: 100px 9% 0;
+    padding: 150px;
     gap: 20px;
     background-color: #1c1c1c;
 }
