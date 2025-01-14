@@ -3,7 +3,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
     scrollbar-width: none; 
     
 }
@@ -15,6 +14,8 @@
 body{
     color:white;
     text-decoration: none;
+    font-family:Signika Negative;
+    text-align: justify;
 }
 
 .header {
@@ -66,6 +67,7 @@ body{
     padding: 150px;
     gap: 20px;
     background-color: #1c1c1c;
+    justify-content: space-around;
 }
 
 .img-box {
@@ -136,6 +138,8 @@ body{
 
 .home-contents p {
     font-size: 20px;
+    justify-content: space-around;
+    line-height: 20px;
 
 }
 
@@ -184,6 +188,7 @@ body{
     padding: 150px;
     background-color: #1c1c1c;
     color: white;
+    /* list-style-type: disc; */
 }
 
 .about h1 {
@@ -196,18 +201,22 @@ body{
 
 .about-container {
     display: flex;
-    flex-wrap: wrap;
-    gap: 30px;
     justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+    /* text-align: justify; */
+    gap:55px;
+    /* line-height: 10px; */
+
 }
 
 .about-left, .about-right {
     flex: 1;
-    min-width: 200px;
+    /* min-width: 200px; */
 }
 
 .about-left ul, .about-right ul {
-    list-style: none;
+    /* list-style: none; */
     padding: 0;
 }
 
@@ -378,8 +387,8 @@ body{
   .left-container,
   .right-container {
     flex: 20 20 70%;
-    /* border: 1px solid #ddd;
-    border-radius: 12px; */
+    border: 1px solid #0ef;
+    border-radius: 20px;
     overflow: hidden;
     box-shadow: 0 4px 8px rgba(0, 170, 255, 0.2);
     height: 400px; /* Fixed height for scroll */
@@ -497,6 +506,7 @@ body{
   /* Individual box styling */
 .projects .box {
     /* background-color: #fff; */ /* Removed background color */
+    border: 1px solid #0ef;
     border-radius: 12px;
     padding: 25px;
     width: 320px;
@@ -623,7 +633,7 @@ body{
 .info-item h3 {
     font-size: 18px;
     margin-bottom: 5px;
-    color: white; /* Darker text for better readability */
+    color: white;
 }
 
 .info-item p {
@@ -639,7 +649,7 @@ body{
     flex: 2;
     padding: 30px;
     border-radius: 8px;
-    border: 1px solid #ddd;
+    border: 1px solid #0ef;
 }
 
 .contact-form h3 {
