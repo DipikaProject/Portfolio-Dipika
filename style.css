@@ -15,7 +15,6 @@ body{
     color:white;
     text-decoration: none;
     font-family:Signika Negative;
-   
 }
 
 .header {
@@ -269,7 +268,7 @@ body{
 
 
 .education {
-    text-align: center; /* Center the section content */
+    /* text-align: center;  */
     padding: 50px 0;
     background-color: #1c1c1c;
 }
@@ -277,6 +276,7 @@ body{
 .education .heading {
     font-size: 37px;
     margin-bottom: 45px;
+    text-align: center;
     /*font-weight: bold;
      text-transform: uppercase; */
     /* letter-spacing: 1px; */
@@ -288,7 +288,7 @@ body{
 
 .education .box-container {
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     justify-content: center; 
     /* padding: 150px; */
     padding-left: 9rem;
@@ -297,8 +297,8 @@ body{
 }
 
 .education .box-container .box {
-    width: calc(40% - 2rem);
-    margin: 0;
+    width: 20% ;
+    margin: 0; 
     padding-left: 4rem;
     border-left: .2rem solid #fff;
     position: relative;
@@ -390,16 +390,16 @@ body{
     gap: 100px;
   }
   
-  .left-container,
+  /* .left-container,
   .right-container {
     flex: 20 20 70%;
     border: 1px solid #0ef;
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 0 4px 8px rgba(0, 170, 255, 0.2);
-    height: 400px; /* Fixed height for scroll */
+    height: 400px; Fixed height for scroll 
     
-  }
+  }*/
   
   .left-container {
     padding: 20px;
@@ -412,14 +412,14 @@ body{
     /* list-style-type: disc; */
   }
   
-  .right-container {
+  /* .right-container {
     padding: 20px;
      text-align: left; 
     background-color: #1c1c1c;
     font-size: 25px;
     text-align: justify;
-    overflow-y: auto;
-  }
+    overflow-y: auto; 
+  }  */
   
   /* Scrollable content */
   /* .scroll-content {
@@ -476,10 +476,10 @@ body{
       flex-direction: column;
     }
   
-    .left-container,
+    /* .left-container,
     .right-container {
       height: 300px; 
-    }
+    } */
   }
 .left-container h2{
     font-size: 30px;
