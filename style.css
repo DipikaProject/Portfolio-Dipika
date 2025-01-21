@@ -249,118 +249,73 @@ body{
 
 
 
-/* Initial state of the boxes (off-screen) */
-.education .box {
-    opacity: 0;
-    transform: translateX(-100px); /* Start from the left */
-    transition: all 0.6s ease-in-out;
-}
 
-.education .box.right {
-    transform: translateX(100px); /* Start from the right */
-}
-
-/* When the box comes into view */
-.education .box.visible {
-    opacity: 1;
-    transform: translateX(0); /* Slide into place */
-}
-
-
-.education {
-    /* text-align: center;  */
-    padding: 50px 0;
-    background-color: #1c1c1c;
-}
-
-.education .heading {
-    font-size: 37px;
-    margin-bottom: 45px;
+  
+  .education {
+    padding: 20px 10%;
+    background-color:#1c1c1c;
+  }
+  
+  h2 {
     text-align: center;
-    /*font-weight: bold;
-     text-transform: uppercase; */
-    /* letter-spacing: 1px; */
-}
-
-.education .heading span {
-    color: white; 
-}
-
-.education .box-container {
-    display: flex;
-    /* flex-wrap: wrap; */
-    justify-content: center; 
-    /* padding: 150px; */
-    padding-left: 9rem;
-    padding-right: 9rem; 
-    gap: 6rem; 
-}
-
-.education .box-container .box {
-    width: 20% ;
-    margin: 0; 
-    padding-left: 4rem;
-    border-left: .2rem solid #fff;
+    margin-bottom: 30px;
+    color: white;
+    font-size: 30px;
+  }
+  
+  .timeline {
     position: relative;
-}
+    border-left: 2px solid #0ef
+  }
+  
+  .timeline-item {
+    margin-bottom: 30px;
+    position: relative;
+  }
 
-.education .box-container .box span {
-    font-size: 1.1rem;
-    background: #0ef;
-    color: #1c1c1c;
-    border-radius: 4rem;
-    padding: .5rem 2.5rem;
-}
-
-.education .box-container .box h3 {
-    font-size: 1.5rem;
-    color: #fff;
-    padding-top: 1.5rem;
-}
-
-.education .box-container .box h3 p {
-    font-size: 0;
-    color: #ede4e4f4;
-    padding: 1rem 0;
-}
-
-.education .box-container .box i {
-    position: absolute;
-    top: -1.8rem;
-    left: -2.5rem;
-    height: 5rem;
-    width: 5rem;
+  
+  
+  .timeline-dot {
+    width: 14px;
+    height: 14px;
+    background-color:#0ef;
     border-radius: 50%;
-    line-height: 5rem;
-    text-align: center;
-    font-size: 3rem;
-    color: whitesmoke;
-    /* background: var(--yellow); */
-}
+    position: absolute;
+    left: -8px;
+  }
+  
+  .timeline-content {
+    margin-left: 20px;
+  }
+  
+  .timeline-content h3 {
+    margin: 0;
+    font-size: 18px;
+    color: white;
+  }
+  
+  .timeline-content p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #fff;
+  }
+  
+  .timeline-content ul {
+    margin: 5px 0 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .timeline-content li {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+  
+  .timeline-content li strong {
+    font-weight: bold;
+  }
+  
 
-.fas.fa-graduation-cap {
-    color: #282a2b; /* Change icon color */
-    font-size: 30px; /* Adjust size */
-}
-
-
-/* For smaller screens (max-width: 768px), adjust to one column layout */
-@media (max-width: 768px) {
-    .education .box-container .box {
-        width: 100%; /* One column layout */
-    }
-}
-
-
-
-/* .experience {
-    padding: 20px;
-    max-width: 800px;
-    margin: 20px auto;
-    background-color: #222;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-} */
 
 
 /* General section styling */
@@ -599,7 +554,7 @@ body{
 
   /* General Styles */
   .contact {
-    padding: 100px;
+    padding: 100px 20%;
     color: #222;
     background-color: #1c1c1c;
 }
@@ -625,15 +580,15 @@ body{
 
 /* Container Styles */
 .contact .container {
-    display: flex;
+    /* display: flex; */
     justify-content: space-between;
-    gap: 30px;
+    /* gap: 30px; */
     flex-wrap: wrap;
 }
 
 /* Left Side: Contact Info */
 .contact-info {
-    flex: 2;
+    flex: 3;
     display: flex;
     flex-direction: column;
     gap: 80px;
@@ -654,7 +609,7 @@ body{
 }
 
 .info-item h3 {
-    font-size: 18px;
+    font-size: 25px;
     margin-bottom: 5px;
     color: white;
 }
@@ -669,7 +624,7 @@ body{
 
 /* Right Side: Contact Form */
 .contact-form {
-    flex: 2;
+    flex: 4;
     padding: 30px;
     border-radius: 8px;
     border: 1px solid #0ef;
@@ -679,6 +634,7 @@ body{
     margin-bottom: 20px;
     font-size: 24px;
     color: white;
+    text-align: center;
 }
 
 .contact-form input,
