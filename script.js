@@ -76,4 +76,16 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
   
-  
+  function sendEmail(){
+        Email.send({
+          Host : "smtp.Gmail.com",
+          Username : "Dipikapandit26@gmail.com",
+          Password : "Dipika@2003",
+          To : 'Dipikapandit0@gmail.com',
+          From : document.getElementById("email").value,
+          Subject : "New Contact form",
+          Body : "And this is the body"
+      }).then(
+        message => alert(message)
+      );
+  }

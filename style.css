@@ -318,14 +318,14 @@ body{
 
 
 
-/* General section styling */
-.experience-certificates {
+
+.certificates {
     padding: 150px;
-    text-align: center;
+    /* text-align: center; */
     background-color: #1c1c1c;
   }
   
-  .experience-certificates .heading {
+  .certificates .heading {
     font-size: 40px;
     color: #222;
     margin-bottom: 40px;
@@ -334,9 +334,41 @@ body{
     letter-spacing: 2px;
   }
   
-  .experience-certificates .heading span {
+  .certificates .heading span {
+    font-size: 36px;
+    font-weight: bold;
     color: white; 
+    margin-bottom: 20px;
+    text-align: center;
   }
+
+
+
+  .experience {
+    padding: 150px;
+    /* text-align: center; */
+    background-color: #1c1c1c;
+  }
+  
+  .experience .heading {
+    font-size: 40px;
+    color: #222;
+    margin-bottom: 40px;
+    font-weight: bold;
+    /* text-transform: uppercase; */
+    letter-spacing: 2px;
+  }
+  
+  .experience .heading span {
+    font-size: 36px;
+    font-weight: bold;
+    color: white; 
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+
+  
   
   /* Containers */
   .container {
@@ -367,14 +399,11 @@ body{
     /* list-style-type: disc; */
   }
   
-  /* .right-container {
+  .right-container {
     padding: 20px;
-     text-align: left; 
-    background-color: #1c1c1c;
     font-size: 25px;
-    text-align: justify;
-    overflow-y: auto; 
-  }  */
+    text-align: justify; 
+  }  
   
   /* Scrollable content */
   /* .scroll-content {

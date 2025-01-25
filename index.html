@@ -21,7 +21,8 @@
             <a href="#home" >Home</a>
             <a href="#about" >About</a>
             <a href="#education" >Education</a>
-            <a href="#experience-certificates" >Experience</a>
+            <a href="#certificates" >Certificates</a>
+            <a href="#experience" >Experience</a>
             <a href="#projects" >Projects</a>
             <a href="#contact" >Contact</a>
         </nav>
@@ -120,20 +121,21 @@
 
 
 
-        <section class="experience-certificates" id="experience-certificates">
-            <h1 class="heading"><span>Experience</span></h1>
+        <section class="certificates" id="certificates">
+            <h1 class="heading"><span>Certificates</span></h1>
             <div class="container">
               <!-- Left side: Certificates -->
               <div class="left-container">
-                <h2>Certificates</h2>
-                <div class="scroll-content">
-
-                  
-
-                  <div class="certificate">
-                    <h3>Full-Stack Web Development</h3>
-                    <p>Issued by: Edunet Foundation | Completion: April, 2024</p>
-                    <p>Completed a virtual internship in Full Stack Web Development, focusing on both frontend and backend development. Developed a news aggregator app, showcasing the ability to fetch, organize, and display real-time news.
+                <!-- <h2>Certificates</h2> -->
+                <div class="timeline">
+                 <div class="timeline-item">
+                  <div class="timeline-dot"></div>
+                   <div class="timeline-content">
+                     <!-- <div class="scroll-content"> -->
+                     <div class="certificate">
+                     <h3>Full-Stack Web Development</h3>
+                     <p>Issued by: Edunet Foundation | Completion: April, 2024</p>
+                     <p>Completed a virtual internship in Full Stack Web Development, focusing on both frontend and backend development. Developed a news aggregator app, showcasing the ability to fetch, organize, and display real-time news.
                       Worked on interactive web applications, emphasizing user experience and dynamic functionality.</p>
                   </div>
                   <div class="certificate">
@@ -148,17 +150,19 @@
                   </div>
                 </div>
               </div>
+            </div>
           
-              <!-- Right side: Experience  -->
-              <div class="right-container">
-                <h2>Experience</h2>
-                <div class="scroll-content">
+
+
+            <section class="experience" id="experience">
+              <!-- <div class="right-container"> -->
+                <h1 class="heading"><span>Experience</span></h1>
+                <!-- <h2>Experience</h2> -->
                   <div class="experience">
                     <h3>Customers Support Executive</h3>
                     <p>Company: Tech Mahindra | Duration: 23 May 2023 – 23 August 2023</p>
                     <p>As a Customer Support Executive at Tech Mahindra, I handled customer interactions through calls, and chats,resolving queries efficiently. My role involved troubleshooting issues and coordinating with teams for complex problems. I ensured high customer satisfaction by understanding and addressing their needs effectively. Additionally, I documented interactions and reported common issues to improve service quality. My patience and professionalism were essential in managing and resolving difficult situations successfully</p>
                   </div>
-                </div>
               </div>
             </div>
           </section>
@@ -225,7 +229,7 @@
                 <!-- Right Side: Contact Form -->
                 <div class="contact-form">
                     <h3>Send a Message</h3>
-                    <form action="#">
+                    <form onsubmit="sendEmail(); reset(); return false;">
                         <input type="text" placeholder="Your Name" required>
                         <input type="email" placeholder="Your Email" required>
                         <textarea placeholder="Your Message" required></textarea>
@@ -253,5 +257,6 @@
 
 
 <script src="script.js"></script>
+<script src="https://smtpjs.com/v3/smtp.js"></script>
 </body>
 </html>
