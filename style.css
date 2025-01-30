@@ -330,7 +330,7 @@ body{
   .certificates .heading {
     font-size: 40px;
     color: #222;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     font-weight: bold;
     /* text-transform: uppercase; */
     letter-spacing: 2px;
@@ -341,14 +341,14 @@ body{
     font-size: 36px;
     font-weight: bold;
     color: white; 
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
     text-align: center;
   }
 
 
 
   .experience {
-    padding: 150px;
+    /* padding: 150px; */
     /* text-align: center; */
     background-color: #1c1c1c;
   }
@@ -466,7 +466,8 @@ body{
     font-size: 22px;
     color: white;
     font-weight: bold;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
+    padding-left: 10px;
   }
 
   
@@ -474,13 +475,16 @@ body{
    {
     font-size: 18px;
     color: #c6c0c0;
-    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 10px;
   }
 
   .experience p{
     font-size: 18px;
-    color: #cdcdcde2;
-    margin: 0;
+    color: rgb(226, 226, 226);
+    margin-bottom: 10px;
+    padding-left: 10px;
   }
   
   /* Responsive design */
@@ -775,21 +779,6 @@ body{
     width: 80%;
     margin: 0 auto 20px; 
 }
-
-
-
-
-  
-  
-  
-  
-
-
-
-
-
-
-
 
 
 
