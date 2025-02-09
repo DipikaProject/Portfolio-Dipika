@@ -135,6 +135,7 @@ body{
     font-size: 48px;
     font-weight: 200;
     margin: 10px 0;
+    color: #0ef;
 }
 
 .home-contents p {
@@ -199,7 +200,7 @@ body{
 .about h1 {
     font-size: 36px;
     font-weight: bold;
-    color: white; 
+    color:#0ef; 
     margin-bottom: 20px;
     text-align: center;
 }
@@ -232,7 +233,7 @@ body{
 }
 
 .about-left li strong, .about-right li strong {
-    color: #0ef; 
+    color: white; 
 }
 
 .about-right li {
@@ -330,7 +331,7 @@ body{
   .certificates .heading {
     font-size: 40px;
     color: #222;
-    margin-bottom: 20px;
+    margin-bottom: 10px; 
     font-weight: bold;
     /* text-transform: uppercase; */
     letter-spacing: 2px;
