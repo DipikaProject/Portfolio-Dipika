@@ -323,7 +323,7 @@ body{
 
 
 .certificates {
-    padding: 150px;
+    padding: 10px 150px 150px 150px;
     /* text-align: center; */
     background-color: #1c1c1c;
   }
